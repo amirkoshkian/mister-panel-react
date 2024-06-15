@@ -1,0 +1,119 @@
+/************************************************************************/ /* Start Style  */
+@media (max-width: 576px) {
+}
+@media (max-width: 768px) {
+  .section-menu-header {
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .header {
+    height: 120px;
+  }
+  .setting {
+    top: 0;
+    z-index: 1;
+  }
+  .todo {
+    top: 0;
+    z-index: 1;
+  }
+  .header > section {
+    padding: 0;
+  }
+  .content {
+    top: 120px;
+    right: 0;
+  }
+  .footer > section,
+  .footer > section > span {
+    padding: 0;
+    margin: 0;
+  }
+  .profile {
+    left: 20px;
+  }
+  .profile::before {
+    left: 123px;
+  }
+  .notification {
+    left: 20px;
+  }
+  .notification::before {
+    left: 60px;
+  }
+  .search-box {
+    top: 116px;
+    left: 10px;
+  }
+  .search-box::before {
+    left: 253px;
+  }
+  .language {
+    top: 116px;
+    left: 10px;
+  }
+  .language::before {
+    left: 132px;
+  }
+  .message {
+    top: 116px;
+    left: 10px !important;
+  }
+  .message::before {
+    left: 70px !important;
+  }
+  .short-code {
+    top: 116px;
+    left: 10px !important;
+  }
+  .short-code::before {
+    left: 12px !important;
+  }
+  .section-to-top-page {
+    bottom: 60px;
+  }
+}
+@media (max-width: 992px) {
+  .section-menu {
+    display: flex !important;
+  }
+  .header {
+    right: 0;
+  }
+  .content {
+    right: 0;
+  }
+  .message {
+    left: 290px;
+  }
+  .message::before {
+    left: 257px;
+  }
+  .short-code {
+    left: 345px;
+  }
+  .short-code::before {
+    left: 265px;
+  }
+  .footer > section,
+  .footer > section > span {
+    padding: 0;
+    margin: 0;
+  }
+  .section-icon-minimize-menu {
+    display: flex;
+  }
+}
+@media (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
+  .brm {
+    border-right: 1px solid var(--mp-theme-color);
+  }
+  .blm {
+    border-left: 1px solid var(--mp-theme-color);
+  }
+}
+@media (max-width: 1400px) {
+}
+/************************************************************************/ /* End Style  */
